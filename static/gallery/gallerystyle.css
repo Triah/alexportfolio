@@ -26,10 +26,6 @@
     cursor: pointer;
 }
 
-h1[id="headline-gallery"]{
-    margin-top: 50px;
-}
-
 #footercont {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: fixed;
@@ -53,4 +49,19 @@ h1[id="headline-gallery"]{
 
 .image-container{
     margin-left:1%;
+}
+
+.work-item{
+    margin-top:5%;
+}
+
+.work-item img{
+    width:31.6%;
+    height:25%;
+    margin-left:1%;
+    margin-top:1%;
+}
+
+.work-item img:hover{
+    border: 1px solid;
 }
