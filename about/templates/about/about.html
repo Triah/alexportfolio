@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load static %}
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'about/aboutstyle.css' %}" />
     <title>Alexander Jensen - Portfolio</title>
 </head>
 <body>
-    <h1>about page</h1>
+<div class="container body-content">
+        <div class="navigationbar" id="navibar">
+            <a onclick="">Work</a>
+            <a onclick="">Showreel</a>
+            <a onclick="">About</a>
+            <a onclick="">Contact</a>
+        </div>
+    <h1 id="headline-about">about page</h1>
+
+
+    <div class="foot" id="footercont">
+        <div class="image-container">
+            <img src="https://image.flaticon.com/icons/svg/61/61109.svg" href="www.linkedin.com" />
+            <img src="http://freevector.co/wp-content/uploads/2013/11/38534-vimeo-logo-white-inside-a-black-square-200x200.png" href="www.vimeo.com" />
+            <img src="http://diylogodesigns.com/blog/wp-content/uploads/2016/05/black-color-instagram-icon-png.png" href="www.instagram.com" />
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
