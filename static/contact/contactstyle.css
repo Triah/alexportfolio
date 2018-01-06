@@ -67,3 +67,80 @@ h1[id="headline-contact"]{
 .image-container{
     margin-left:1%;
 }
+
+
+.contactpage h1[id="contactpage-heading"]{
+    text-align:center;
+
+}
+
+.contactpage {
+    font-family:Calibri;
+}
+
+.contact-page-form p {
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #333;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    max-height: 550px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.contact-page-form input {
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    height: 3em;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    border: solid 1px;
+}
+
+.contact-page-form h1{
+    color:white;
+    font-family:Calibri;
+    text-align:center;
+}
+
+.contact-page-form textarea{
+    width:500px;
+    height:300px;
+    margin-top:2%;
+    border: 1px solid;
+    resize:none;
+    text-align:center;
+    font-family:Arial;
+}
+
+.contact-page-form-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index:-1;
+}
+
+.contact-page-form input[id="contact-submit"] {
+    border: 1px;
+    background-color: #F7F7F7;
+    color: #333;
+}
+
+.contact-page-form input[id="contact-submit"]:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+html{
+    background-color: grey;
+}

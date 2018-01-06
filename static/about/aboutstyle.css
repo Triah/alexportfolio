@@ -67,3 +67,102 @@ h1[id="headline-about"]{
 .image-container{
     margin-left:1%;
 }
+
+.introduction{
+    position:absolute;
+    top:12%;
+}
+
+.introduction-image {
+    position: relative;
+    transform: translateY(5%);
+    margin-right:0.3%;
+    float:left;
+}
+
+.introduction-text p{
+    color:white;
+    width:100%;
+}
+
+html{
+    background-color:grey;
+}
+
+.skillsection{
+    position: fixed;
+    top: 11%;
+    left: 35%;
+    margin-left: 5%;
+}
+
+.skillheadline{
+    position: relative;
+    transform: translateY(5%);
+    margin-right:0.3%;
+    float:left;
+}
+
+.skillsetpoints{
+    color:white;
+}
+
+.skillsetpoints li{
+    margin-top:15px;
+}
+
+.softwaresection{
+    position: fixed;
+    top: 11%;
+    left: 60%;
+}
+
+.softwareheadline{
+    position: relative;
+    transform: translateY(5%);
+    margin-right:0.3%;
+    float:left;
+}
+.softwarepoints p{
+    padding-left:50px;
+}
+
+.softwarepoints{
+    color:white;
+}
+
+.softwarepoints li{
+    margin-top:15px;
+}
+
+@media only screen and (max-width: 1635px) {
+    .skillsection{
+        margin-left: 10%;
+    }
+    .softwaresection{
+        margin-left: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 1459px) {
+    .skillsection{
+        margin-left: 15%;
+    }
+    .softwaresection{
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .introduction{
+        width:50%;
+    }
+
+    .softwaresection{
+        top: 50%;
+        left: 40%;
+    }
+
+}
