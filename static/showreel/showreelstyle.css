@@ -18,6 +18,12 @@
     text-decoration: none;
     font-size: 17px;
     float:right;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .navigationbar a:hover {
@@ -40,6 +46,12 @@ h1[id="headline-showreel"]{
     overflow: hidden;
     text-align: left;
     height: 40px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .image-container img {
@@ -49,8 +61,20 @@ h1[id="headline-showreel"]{
     width: 30px;
     margin-right: 3px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .image-container{
     margin-left:1%;
+}
+
+.videoWrapper {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+html{
+    background-color:grey;
 }

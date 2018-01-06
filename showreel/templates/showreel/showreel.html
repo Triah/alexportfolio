@@ -4,24 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="{% static 'showreel/showreelstyle.css' %}" />
+    <script src="{% static 'showreel/showreelscripts.js' %}" type="text/javascript"></script>
+    <link rel="shortcut icon" type="image/png" href="https://scontent-arn2-1.cdninstagram.com/t51.2885-19/s150x150/11809901_1678773129065914_770468845_a.jpg"/>
     <title>Alexander Jensen - Portfolio</title>
 </head>
 <body>
 
 <div class="container body-content">
-        <div class="navigationbar" id="navibar">
-            <a onclick="">Work</a>
-            <a onclick="">Showreel</a>
-            <a onclick="">About</a>
-            <a onclick="">Contact</a>
-        </div>
-    <h1 id="headline-showreel">showreel page</h1>
+    <div class="navigationbar" id="navibar">
+        <a onclick="directcontact()">Contact</a>
+        <a onclick="directabout()">About</a>
+        <a onclick="directshowreel()"><u>Showreel</u></a>
+        <a onclick="directwork()">Work</a>
+    </div>
+
+    <div class="videoWrapper">
+        <iframe width="560" height="349" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
 
     <div class="foot" id="footercont">
         <div class="image-container">
-            <img src="https://image.flaticon.com/icons/svg/61/61109.svg" href="www.linkedin.com" />
-            <img src="http://freevector.co/wp-content/uploads/2013/11/38534-vimeo-logo-white-inside-a-black-square-200x200.png" href="www.vimeo.com" />
-            <img src="http://diylogodesigns.com/blog/wp-content/uploads/2016/05/black-color-instagram-icon-png.png" href="www.instagram.com" />
+            <a onclick="directlinkedin()"><img src="https://image.flaticon.com/icons/svg/61/61109.svg"/></a>
+            <a onclick="directvimeo()"><img src="http://freevector.co/wp-content/uploads/2013/11/38534-vimeo-logo-white-inside-a-black-square-200x200.png" /></a>
+            <a onclick="directinstagram()"><img src="http://diylogodesigns.com/blog/wp-content/uploads/2016/05/black-color-instagram-icon-png.png"/></a>
         </div>
     </div>
 
